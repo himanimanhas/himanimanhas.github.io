@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>My Photo Gallery</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Muli:400,700|Hepta+Slab:400,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="fonts/icomoon/style.css" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css" />
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css" />
+    <link rel="stylesheet" href="css/aos.css" />
+
+    <!-- script
+   ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+      .back {
+        background: #151515 url(../images/wall.jpg) no-repeat center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        background-size: cover;
+        background-size: cover;
+        height: 100vh;
+      }
+      .scroll {
+        margin-top: 1em;
+        font-size: 1.75em;
+        transform: scaleX(1.1);
+        border: 3px solid #f4ad2d;
+        color: white;
+        background: rgba(0, 0, 0, 0.3) !important;
+
+        padding: 0.5em;
+      }
+      .scroll:hover {
+        border: 3px solid #fff;
+      }
+      /* the #id of your div */
+      #particles-js {
+        /* stay in a constant spot on the page, regardless of scroll */
+        position: fixed;
+        /* fill the entire page */
+        width: 100%;
+        height: 100%;
+        /* remove the space along the edges */
+        margin: 0;
+        padding: 0;
+        /* position it to start at the top of the page */
+        top: 0;
+        background-color: black;
+        /* put it behind other content */
+        z-index: 0;
+      }
+    </style>
+  </head>
+
+  <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+    <div id="particles-js"></div>
+    <div class="ftco-blocks-cover-1" style="height: 100% !important;">
+      <div class="site-section-cover overlay back">
+        <div class="container">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-md-12" style="margin-bottom: -20%;">
+              <h1 class="col-md-12 text-center">Photo Gallery</h1>
+              <br />
+              <h4 class="col-md-12 text-center text-white mb-9">
+                Check Out My Photography
+              </h4>
+            </div>
+
+            <div
+              class="col-md-12 d-flex justify-content-center align-items-center"
+            >
+              <a class="scroll" href="#main" title="Check">Let's Explore It </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section id="main" style="z-index: 0 !important;">
+      <div class="container" style="margin-top: 10%;">
+        <div class="row align-items-center">
+          <div class="col-md-12">
+            <h2 class="col-md-12 text-center text-white">
+              Taking an image, freezing a moment, reveals how rich reality truly
+              is.
+            </h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="site-section">
+        <div class="container col-md-9">
+          <div id="posts" class="row no-gutter">
+            <div
+              class="item web col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4"
+            >
+              <a
+                href="images/travel/1.jpg"
+                class="item-wrap"
+                data-fancybox="gal"
+              >
+                <span class="icon-search2"></span>
+                <img class="img-fluid" src="images/travel/1.jpg" />
+              </a>
+            </div>
+            <div
+              class="item web col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4"
+            >
+              <a
+                href="images/travel/2.jpg"
+                class="item-wrap"
+                data-fancybox="gal"
+              >
+                <span class="icon-search2"></span>
+                <img class="img-fluid" src="images/travel/2.jpg" />
+              </a>
+            </div>
+            <div
+              class="item web col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4"
+            >
+              <a
+                href="images/travel/3.jpg"
+                class="item-wrap"
+                data-fancybox="gal"
+              >
+                <span class="icon-search2"></span>
+                <img class="img-fluid" src="images/travel/3.jpg" />
+              </a>
+            </div>
+            <div
+              class="item web col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4"
+            >
+              <a
+                href="images/travel/4.jpg"
+                class="item-wrap"
+                data-fancybox="gal"
+              >
+                <span class="icon-search2"></span>
+                <img class="img-fluid" src="images/travel/4.jpg" />
+              </a>
+            </div>
+            <div
+              class="item web col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4"
+            >
+              <a
+                href="images/travel/5.jpg"
+                class="item-wrap"
+                data-fancybox="gal"
+              >
+                <span class="icon-search2"></span>
+                <img class="img-fluid" src="images/travel/5.jpg" />
+              </a>
+            </div>
+            <div
+              class="item web col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4"
+            >
+              <a
+                href="images/travel/6.jpg"
+                class="item-wrap"
+                data-fancybox="gal"
+              >
+                <span class="icon-search2"></span>
+                <img class="img-fluid" src="images/travel/6.jpg" />
+              </a>
+            </div>
+            <div
+              class="item web col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4"
+            >
+              <a
+                href="images/travel/7.jpg"
+                class="item-wrap"
+                data-fancybox="gal"
+              >
+                <span class="icon-search2"></span>
+                <img class="img-fluid" src="images/travel/7.jpg" />
+              </a>
+            </div>
+            <div
+              class="item web col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4"
+            >
+              <a
+                href="images/travel/8.jpg"
+                class="item-wrap"
+                data-fancybox="gal"
+              >
+                <span class="icon-search2"></span>
+                <img class="img-fluid" src="images/travel/8.jpg" />
+              </a>
+            </div>
+            <div
+              class="item web col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4"
+            >
+              <a
+                href="images/travel/9.jpg"
+                class="item-wrap"
+                data-fancybox="gal"
+              >
+                <span class="icon-search2"></span>
+                <img class="img-fluid" src="images/travel/9.jpg" />
+              </a>
+            </div>
+            <div
+              class="item web col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4"
+            >
+              <a
+                href="images/travel/10.jpg"
+                class="item-wrap"
+                data-fancybox="gal"
+              >
+                <span class="icon-search2"></span>
+                <img class="img-fluid" src="images/travel/10.jpg" />
+              </a>
+            </div>
+            <div
+              class="item web col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4"
+            >
+              <a
+                href="images/travel/11.jpg"
+                class="item-wrap"
+                data-fancybox="gal"
+              >
+                <span class="icon-search2"></span>
+                <img class="img-fluid" src="images/travel/11.jpg" />
+              </a>
+            </div>
+            <div
+              class="item web col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4"
+            >
+              <a
+                href="images/travel/12.jpg"
+                class="item-wrap"
+                data-fancybox="gal"
+              >
+                <span class="icon-search2"></span>
+                <img class="img-fluid" src="images/travel/12.jpg" />
+              </a>
+            </div>
+            <div
+              class="item web col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4"
+            >
+              <a
+                href="images/travel/13.jpg"
+                class="item-wrap"
+                data-fancybox="gal"
+              >
+                <span class="icon-search2"></span>
+                <img class="img-fluid" src="images/travel/13.jpg" />
+              </a>
+            </div>
+            <div
+              class="item web col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4"
+            >
+              <a
+                href="images/travel/14.jpg"
+                class="item-wrap"
+                data-fancybox="gal"
+              >
+                <span class="icon-search2"></span>
+                <img class="img-fluid" src="images/travel/14.jpg" />
+              </a>
+            </div>
+            <div
+              class="item web col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4"
+            >
+              <a
+                href="images/travel/15.jpg"
+                class="item-wrap"
+                data-fancybox="gal"
+              >
+                <span class="icon-search2"></span>
+                <img class="img-fluid" src="images/travel/15.jpg" />
+              </a>
+            </div>
+            <div
+              class="item web col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4"
+            >
+              <a
+                href="images/travel/16.jpg"
+                class="item-wrap"
+                data-fancybox="gal"
+              >
+                <span class="icon-search2"></span>
+                <img class="img-fluid" src="images/travel/16.jpg" />
+              </a>
+            </div>
+            <div
+              class="item web col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4"
+            >
+              <a
+                href="images/travel/17.jpg"
+                class="item-wrap"
+                data-fancybox="gal"
+              >
+                <span class="icon-search2"></span>
+                <img class="img-fluid" src="images/travel/17.jpg" />
+              </a>
+            </div>
+            <div
+              class="item web col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4"
+            >
+              <a
+                href="images/travel/18.jpg"
+                class="item-wrap"
+                data-fancybox="gal"
+              >
+                <span class="icon-search2"></span>
+                <img class="img-fluid" src="images/travel/18.jpg" />
+              </a>
+            </div>
+            <div
+              class="item web col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4"
+            >
+              <a
+                href="images/travel/19.jpg"
+                class="item-wrap"
+                data-fancybox="gal"
+              >
+                <span class="icon-search2"></span>
+                <img class="img-fluid" src="images/travel/19.jpg" />
+              </a>
+            </div>
+            <div
+              class="item web col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4"
+            >
+              <a
+                href="images/travel/20.jpg"
+                class="item-wrap"
+                data-fancybox="gal"
+              >
+                <span class="icon-search2"></span>
+                <img class="img-fluid" src="images/travel/20.jpg" />
+              </a>
+            </div>
+            <div
+              class="item web col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4"
+            >
+              <a
+                href="images/travel/21.jpg"
+                class="item-wrap"
+                data-fancybox="gal"
+              >
+                <span class="icon-search2"></span>
+                <img class="img-fluid" src="images/travel/21.jpg" />
+              </a>
+            </div>
+            <div
+              class="item web col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4"
+            >
+              <a
+                href="images/travel/22.jpg"
+                class="item-wrap"
+                data-fancybox="gal"
+              >
+                <span class="icon-search2"></span>
+                <img class="img-fluid" src="images/travel/22.jpg" />
+              </a>
+            </div>
+            <div
+              class="item web col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4"
+            >
+              <a
+                href="images/travel/23.jpg"
+                class="item-wrap"
+                data-fancybox="gal"
+              >
+                <span class="icon-search2"></span>
+                <img class="img-fluid" src="images/travel/23.jpg" />
+              </a>
+            </div>
+            <div
+              class="item web col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4"
+            >
+              <a
+                href="images/travel/24.jpg"
+                class="item-wrap"
+                data-fancybox="gal"
+              >
+                <span class="icon-search2"></span>
+                <img class="img-fluid" src="images/travel/24.jpg" />
+              </a>
+            </div>
+            <div
+              class="item web col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4"
+            >
+              <a
+                href="images/travel/25.jpg"
+                class="item-wrap"
+                data-fancybox="gal"
+              >
+                <span class="icon-search2"></span>
+                <img class="img-fluid" src="images/travel/25.jpg" />
+              </a>
+            </div>
+            <div
+              class="item web col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4"
+            >
+              <a
+                href="images/travel/26.jpg"
+                class="item-wrap"
+                data-fancybox="gal"
+              >
+                <span class="icon-search2"></span>
+                <img class="img-fluid" src="images/travel/26.jpg" />
+              </a>
+            </div>
+            <div
+              class="item web col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4"
+            >
+              <a
+                href="images/travel/27.jpg"
+                class="item-wrap"
+                data-fancybox="gal"
+              >
+                <span class="icon-search2"></span>
+                <img class="img-fluid" src="images/travel/27.jpg" />
+              </a>
+            </div>
+            <div
+              class="item web col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4"
+            >
+              <a
+                href="images/travel/28.jpg"
+                class="item-wrap"
+                data-fancybox="gal"
+              >
+                <span class="icon-search2"></span>
+                <img class="img-fluid" src="images/travel/28.jpg" />
+              </a>
+            </div>
+            <div
+              class="item web col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4"
+            >
+              <a
+                href="images/travel/29.jpg"
+                class="item-wrap"
+                data-fancybox="gal"
+              >
+                <span class="icon-search2"></span>
+                <img class="img-fluid" src="images/travel/29.jpg" />
+              </a>
+            </div>
+            <div
+              class="item web col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4"
+            >
+              <a
+                href="images/travel/30.jpg"
+                class="item-wrap"
+                data-fancybox="gal"
+              >
+                <span class="icon-search2"></span>
+                <img class="img-fluid" src="images/travel/30.jpg" />
+              </a>
+            </div>
+            <div
+              class="item web col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4"
+            >
+              <a
+                href="images/travel/31.jpg"
+                class="item-wrap"
+                data-fancybox="gal"
+              >
+                <span class="icon-search2"></span>
+                <img class="img-fluid" src="images/travel/31.jpg" />
+              </a>
+            </div>
+            <div
+              class="item web col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4"
+            >
+              <a
+                href="images/travel/32.jpg"
+                class="item-wrap"
+                data-fancybox="gal"
+              >
+                <span class="icon-search2"></span>
+                <img class="img-fluid" src="images/travel/32.jpg" />
+              </a>
+            </div>
+            <div
+              class="item web col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4"
+            >
+              <a
+                href="images/travel/33.jpg"
+                class="item-wrap"
+                data-fancybox="gal"
+              >
+                <span class="icon-search2"></span>
+                <img class="img-fluid" src="images/travel/33.jpg" />
+              </a>
+            </div>
+            <div
+              class="item web col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4"
+            >
+              <a
+                href="images/travel/34.jpg"
+                class="item-wrap"
+                data-fancybox="gal"
+              >
+                <span class="icon-search2"></span>
+                <img class="img-fluid" src="images/travel/34.jpg" />
+              </a>
+            </div>
+            <div
+              class="item web col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4"
+            >
+              <a
+                href="images/travel/35.jpg"
+                class="item-wrap"
+                data-fancybox="gal"
+              >
+                <span class="icon-search2"></span>
+                <img class="img-fluid" src="images/travel/35.jpg" />
+              </a>
+            </div>
+            <div
+              class="item web col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4"
+            >
+              <a
+                href="images/travel/36.jpg"
+                class="item-wrap"
+                data-fancybox="gal"
+              >
+                <span class="icon-search2"></span>
+                <img class="img-fluid" src="images/travel/36.jpg" />
+              </a>
+            </div>
+            <div
+              class="item web col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4"
+            >
+              <a
+                href="images/travel/37.jpg"
+                class="item-wrap"
+                data-fancybox="gal"
+              >
+                <span class="icon-search2"></span>
+                <img class="img-fluid" src="images/travel/37.jpg" />
+              </a>
+            </div>
+            <div
+              class="item web col-12 col-sm-12 col-md-6 col-lg-4 col-xl-4 mb-4"
+            >
+              <a
+                href="images/travel/38.jpg"
+                class="item-wrap"
+                data-fancybox="gal"
+              >
+                <span class="icon-search2"></span>
+                <img class="img-fluid" src="images/travel/38.jpg" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="./particles.js"></script>
+    <script src="./app.js"></script>
+    <!-- <div id="preloader">
+      <div id="loader"></div>
+    </div> -->
+
+    <script>
+      window.onload(() => {
+        window.scrollTo(0);
+      });
+    </script>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-migrate-3.0.0.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.stellar.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/bootstrap-datepicker.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
